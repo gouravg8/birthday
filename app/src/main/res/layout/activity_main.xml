@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/birthday"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/birthday_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/happy_birthday_ben"
+        android:textColor="#ff0"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/birthday_wish"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130sp"
+        android:layout_marginEnd="90sp"
+        tools:ignore="SmallSp" />
+
+</RelativeLayout>

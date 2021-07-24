@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Birthday Wishes</string>
+    <string name="happy_birthday_ben">Happy Birthday, Ben</string>
+    <string name="birthday_wish">It is time to party and make your birthday as special as you are! I hope your day is fantastic, and the year ahead even better still. Happy birthday!</string>
+    <string name="birthday_image">birthday image</string>
+    <string name="from">From Gourav</string>
+</resources>
